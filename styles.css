@@ -1,3 +1,25 @@
 .header {
+    background-color: rgb(36, 36, 90);
+
     display: flex;
+    justify-content: space-evenly;
+}
+
+.header-logo {
+    color: white;
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.header-links {
+    display: flex;
+    gap: 25px;
+}
+
+.header-links a {
+    color: white;
+    font-size: 20px;
+    font-family: Arial;
+    text-decoration: none;
 }
