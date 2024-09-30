@@ -1,13 +1,11 @@
 .header {
-    background-color: rgb(36, 36, 90);
-
     display: flex;
     justify-content: space-evenly;
 }
 
 .header-logo {
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     font-family: Arial;
     font-weight: bold;
 }
@@ -19,7 +17,43 @@
 
 .header-links a {
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     font-family: Arial;
     text-decoration: none;
+}
+
+.first-section {
+    background-color: rgb(14, 42, 54);
+    color: white;
+    font-family: arial;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.second-layer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.intro {
+    width: 250px;
+}
+
+.sub-details {
+    width: 400px;
+}
+
+.sign-up-button {
+    color: white;
+    background-color: rgb(27, 100, 235);
+    border: none;
+    padding: 8px 30px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+img {
+    width: 100px;
 }
