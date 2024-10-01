@@ -90,6 +90,7 @@ img {
 
 .product-content {
     margin-top: 50px;
+    margin-bottom: 23px;
 
     display: flex;
     justify-content: center;
@@ -104,4 +105,81 @@ img {
     height: 170px;
     width: 170px;
     border-radius: 5px;
+}
+
+.third-section {
+    background-color: rgb(243, 240, 240);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.third-section div {
+    display: flex;
+    align-items: center;
+    width: 570px;
+    flex-wrap: wrap;
+}
+
+.third-section p:nth-child(1)  {
+    font-size: 30px;
+    font-style: italic;
+    font-family: Arial;
+    margin-top: 120px;
+    margin-bottom: 5px;
+}
+
+.third-section p:nth-child(2) {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 62px;
+}
+
+.fourth-section {
+    background-color: rgb(0, 149, 255);
+    width: 910px;
+    color: white;
+
+    border-radius: 8px;
+    margin: 100px auto;
+    padding: 43px 0;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fourth-section p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.fourth-section p:nth-child(1) {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.fourth-section button {
+    color: white;
+    background-color: rgb(0, 149, 255);
+    border: 2px solid;
+    padding: 5px 28px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(14, 42, 54);
+    color: white;
+
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
